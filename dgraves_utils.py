@@ -28,7 +28,7 @@ mode = statistics.mode(project_revenue_amounts)
 median = statistics.median(project_revenue_amounts)
 standard_deviation = statistics.stdev(project_revenue_amounts)
 
-#Byline string
+#Stats String
 stats_string: str = f'''
 Descriptive Statistics for our Revenue values:
     Smallest: {smallest}
